@@ -65,7 +65,8 @@ There 5 interfaces in this project, including:
 
 ### StartPage
 
-![image info](ref\iterface_screenshot\StartPage.PNG)
+![image info](https://github.com/SuWinnie1129/
+python_gui_quiz_game/ref/interface/main/StartPage.png)
 
 1. **Input user name**
    ```python=
