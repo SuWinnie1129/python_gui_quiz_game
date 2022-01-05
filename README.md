@@ -65,9 +65,6 @@ There 5 interfaces in this project, including:
 
 ### StartPage
 
-![image info](https://github.com/SuWinnie1129/
-python_gui_quiz_game/ref/interface/bolb/main/StartPage.png)
-
 1. **Input user name**
    ```python=
    self.name_label = tk.Label(self, text="User Name:",...)
@@ -87,14 +84,10 @@ python_gui_quiz_game/ref/interface/bolb/main/StartPage.png)
 
 ### HomePage
 
-![image info](ref\iterface_screenshot\HomePage.PNG)
-
 1. **Show user information**
 2. **Show game instruction**
 
 ### MenuPage
-
-![image info](ref\iterface_screenshot\MenuPage.PNG)
 
 1. **Disable game buttons which assets is not enough**
    ```python=
@@ -150,8 +143,6 @@ python_gui_quiz_game/ref/interface/bolb/main/StartPage.png)
    ```
 
 ### GamePage
-
-![image info](ref\iterface_screenshot\GamePage.png)
 
 1. **Show question and choices**
 
@@ -226,7 +217,8 @@ python_gui_quiz_game/ref/interface/bolb/main/StartPage.png)
 
 ### ResultPage
 
-![image info](ref\iterface_screenshot\ResultPage.PNG)
+1. show game result (username, assets, earn/lose )
+2. show buttons of playing more or shutting down frame
 
 ## Notice
 
