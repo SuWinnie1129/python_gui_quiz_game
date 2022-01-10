@@ -16,7 +16,7 @@ CURRENT_ODDS = 0    # record of game odds this time
 ASSETS_ADD = 0  # record the assets won/lose this time
 title_dict = {'賭場貴客': 0, '高淨值人士': 1000000, '百萬富翁': 6500000,
               '千萬富翁': 65000000, '超級億萬富翁': 2100000000}  # user title level
-dataset_dict = {'s': '社會時事', 'p': 'PYTHON', 'k': '知識', 'n': '台大校園生活'}
+dataset_dict = {'s': '社會時事', 'p': 'PYTHON', 'k': '知識', 'n': '大學知多少'}
 # entrance fee for different level
 fee_dict = {'1': 1000000, '2': 5000000, '3': 20000000}
 chip_dict = {'1': 1000000, '2': 5000000,
@@ -249,9 +249,9 @@ class MenuPage(tk.Frame):
             'k_lv1': tk.Button(self, text="知識_1（需$600萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("k_lv1")),
             'k_lv2': tk.Button(self, text="知識_2（需$3000萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("k_lv2")),
             'k_lv3': tk.Button(self, text="知識_3（需$7000萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("k_lv3")),
-            'n_lv1': tk.Button(self, text="台大生活_1（需$600萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("n_lv1")),
-            'n_lv2': tk.Button(self, text="台大生活_2（需$3000萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("n_lv2")),
-            'n_lv3': tk.Button(self, text="台大生活_3（需$7000萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("n_lv3"))
+            'n_lv1': tk.Button(self, text="大學知多少_1（需$600萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("n_lv1")),
+            'n_lv2': tk.Button(self, text="大學知多少_2（需$3000萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("n_lv2")),
+            'n_lv3': tk.Button(self, text="大學知多少_3（需$7000萬)", font=controller.button_font, fg='#354C60', bg='white', width=25, height=1, activeforeground='white', activebackground="#354C60", command=lambda: self.get_datasetMenu("n_lv3"))
         }
 
         self.buttons['s_lv1'].grid(
